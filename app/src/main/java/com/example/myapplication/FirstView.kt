@@ -58,8 +58,6 @@ fun FirstView(viewModel: MainViewModel, onNextClicked: () -> Unit) {
                         onNextClicked()
                     }
                 } else {
-                    // Показать сообщение об ошибке ввода чисел
-                    // Можно использовать, например, Snackbar
                 }
             },
             modifier = Modifier.padding(top = 16.dp)
